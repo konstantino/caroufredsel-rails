@@ -4,7 +4,7 @@
 #= require caroufredsel/jquery.carouFredSel-6.0.3
 
 class @Carousel
-  constructor: (@carousel, options) ->
+  constructor: (@carousel, options = {}) ->
     if options.onChange
       @onChange = options.onChange
       delete options.onChange
