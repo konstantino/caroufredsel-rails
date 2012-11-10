@@ -28,6 +28,15 @@ class @Carousel
     @carousel.trigger('pause')
     this
 
+  prev: =>
+    @carousel.trigger('prev')
+
+  next: =>
+    @carousel.trigger('next')
+
+  play: =>
+    @carousel.trigger('play')
+
   onChange: (item) ->
     null
 
