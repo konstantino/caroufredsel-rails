@@ -1,7 +1,8 @@
 #= require jquery
 #= require caroufredsel/jquery.mousewheel.min
 #= require caroufredsel/jquery.touchSwipe.min
-#= require caroufredsel/jquery.carouFredSel-6.0.3
+#= require caroufredsel/jquery.ba-throttle-debounce.min
+#= require caroufredsel/jquery.carouFredSel-6.1.0
 
 class @Carousel
   constructor: (@carousel, options = {}) ->

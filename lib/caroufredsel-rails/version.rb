@@ -1,5 +1,5 @@
 module Caroufredsel
   module Rails
-    VERSION = "0.0.1"
+    VERSION = "6.1.0"
   end
 end
