@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Caroufredsel::Rails::VERSION
   gem.authors       = ["John Bintz"]
   gem.email         = ["john@coswellproductions.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Use caroufredsel with rails. It's pretty good."
+  gem.summary       = "Caroufredsel with rails"
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
